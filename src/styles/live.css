@@ -1,0 +1,184 @@
+.live {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    /* background-color: lightseagreen; */
+}
+.live-inner {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+.live-header {
+    position: relative;
+    
+}
+.live-title img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.live-main {
+    position: relative;
+}
+.live-slide-wrap {
+    position: relative;
+    height: 455px;
+    /* background-color: purple; */
+    margin-top: 23px;
+}
+.live-slide-item {
+    position: relative;
+    height: 455px;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+.live-link {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.live-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.live-img img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    object-fit: cover;
+}
+.live-info {
+    position: relative;
+    /* top: 20px;
+    left: 20px; */
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.live-info-state {
+    position: relative;
+    top: 5px;
+    width: 68px;
+    height: 32px;
+    display: block;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+}
+.live-info-title {
+    position: relative;
+    top: 15px;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: #fff;
+}
+.live-day {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 35%;
+
+}
+.live-day-date {
+    position: relative;
+    text-align: center;
+    font-size: 2.8rem;
+    color: #fff;
+
+}
+.live-day-time {
+    position: relative;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+
+}
+
+.live-good {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 20px;
+    left: 20px;
+}
+.live-good img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+
+}
+.live-good-title {
+    position: absolute;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+
+}
+.live-good-discount {
+    position: absolute;
+    color: #ef3e43;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    bottom: 15px;
+    left: 75px
+
+}
+.live-good-price {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    bottom: 15px;
+    left: 40%;
+}
+
+
+
+.live-footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.live-footer-inner{
+    margin-top: 20px;
+}
+.live-footer-bt {
+    position: relative;
+    padding: 0 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 56px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 44px;
+}
+.live-footer-bt img {
+}

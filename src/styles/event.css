@@ -1,0 +1,127 @@
+.event {
+    position: relative;
+    padding-bottom: 90px;
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+}
+.event {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+.event {
+    position: relative;
+}
+.event-title {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.event-txt {
+    position: relative;
+    display: block;
+    font-size: 1.8rem;
+    color: #a7a9a7;
+    text-align: center;
+}
+.event-main {
+    position: relative;
+}
+.event-slide-wrap {
+    position: relative;
+    height: 350px;
+    margin-top: 23px;
+}
+.event-slide-item {
+    position: relative;
+    height: 350px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    background-color: #f7f7f7; 
+    overflow: hidden;
+} 
+.event-slide-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    
+    border: 1px solid #e5e1e5;
+        /* 그림자 */
+    box-shadow: 0 0 0.8rem rgba(0,0,0,0.13);
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+.event-slide-prev::before {
+    content: "";
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    height: 18px;
+    background: url(../images/slider_arrow.svg) no-repeat center;
+    transform: rotateY(180deg);
+}
+
+.event-slide-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+
+    width: 50px;
+    height: 50px;
+    
+    border: 1px solid #e5e1e5;
+        /* 그림자 */
+    box-shadow: 0 0 0.8rem rgba(0,0,0,0.13);
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+.event-slide-next::before {
+    content: "";
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    height: 18px;
+    background: url(../images/slider_arrow.svg) no-repeat center;
+}
+.event-link {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.event-img {
+    position: relative;
+    width: 100%;
+    height: 348px;
+    overflow: hidden;
+}
+.event-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    object-fit: cover;
+}
+
+.event-slide-wrap img {
+    position: relative;
+    
+}
+.event-footer {
+    position: relative;
+}
