@@ -1,6 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
-import { BtCate } from "../components/ui/buttons";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation } from "swiper/modules";
@@ -32,7 +30,7 @@ function Event() {
         const result = res.data;
         let arr = [];
         for (let i = 0; i < result.total; i++) {
-          const obj = result["_" + (i + 1)];
+          const obj = result["event_" + (i + 1)];
           arr[i] = obj;
         }
         console.log(arr);
@@ -65,8 +63,7 @@ function Event() {
         setHtmlTag(arr);
       })
       .catch((error) => {
-        // 에러가 발생했다.
-        console.log("error : ", error);
+        console.log(error);
       });
   };
 
@@ -89,78 +86,47 @@ function Event() {
   return (
     <SectionTag pt={0} pb={90}>
       <InnerArea>
-        <div className="recommend-header">
-          <h2 className="recommend-title">쇼핑추천</h2>
-          <span className="recommend-txt">할인이 쎄다! 지금, 특가 상품을 확인하세요.</span>
-        </div>
+            <div className="event-header">
+                <h2 className="event-title">이벤트</h2>
+                <span className="event-txt">인터파크에서 할인혜택을 꼭 챙기세요.</span>
+            </div>
+            <div className="event-main"></div>
 
-        <div className="recommend-main">
-          <div className="recommend-category">
-            <ul className="recommend-list">
-              <li>
-                <BtCate active={true}>쎈딜</BtCate>
-              </li>
-              <li>
-                <BtCate>베스트</BtCate>
-              </li>
-              <li>
-                <BtCate>블프데이</BtCate>
-              </li>
-              <li>
-                <BtCate>디지털프라자</BtCate>
-              </li>
-              <li>
-                <a href="#" className="recommend-cate-bt">
-                  소담상회
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="recommend-slide-wrap">
+          <div className="event-slide-wrap">
             <Swiper
               slidesPerView={4}
-              spaceBetween={27}
+              spaceBetween={28}
               slidesPerGroup={4}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper;
               }}
               modules={[Navigation]}
               navigation={{
-                nextEl: ".recommend-slide-wrap .slide-next-bt",
-                prevEl: ".recommend-slide-wrap .slide-prev-bt",
+                nextEl: ".event-slide-wrap .slide-next-bt",
+                prevEl: ".event-slide-wrap .slide-prev-bt",
               }}
-              className="recommend-slide"
+              className="event-slide"
             >
               {htmlTag.map((item, index) => {
                 return (
-                  <SwiperSlide key={index}>
-                    {index === htmlTag.length - 1 ? (
-                      <a href={item.url}>바로가기</a>
-                    ) : (
-                      <div className="recommend-slide-item">
-                        <a href={item.url} className="recommend-link">
-                          <div className="recommend-img">
-                            <img src={item.image} alt={item.desc} />
-                          </div>
-                          <div className="recommend-info">
-                            <ul className="recommend-good-list">
-                              <li>
-                                <span className="recommend-good-info-price">
-                                  <b>{item.discount}%</b>
-                                  <em>{item.price}</em>원
-                                </span>
-                              </li>
-                              <li>
-                                <p className="recommend-good-info-desc">{item.desc}</p>
-                              </li>
-                            </ul>
-                          </div>
-                        </a>
-                      </div>
-                    )}
+                  <SwiperSlide>
+                    
+                        <div className="swiper-slide">
+                            <div className="event-slide-item">
+                                    <a href="" className="event-link">
+                                        <div className="event-image">
+                                            <img src={item.image} alt="" />
+                                        </div> 
+                                    </a>
+                                </div>
+                        </div>
+                    
+                    
                   </SwiperSlide>
                 );
-              })}
+              })
+            }
+            
             </Swiper>
 
             <button className="slide-prev-bt">
@@ -170,9 +136,8 @@ function Event() {
               <img src="images/slider_arrow.svg" alt="" />
             </button>
           </div>
-        </div>
 
-        <div className="recommend-footer"></div>
+        <div className="event-footer"></div>
       </InnerArea>
     </SectionTag>
   );
