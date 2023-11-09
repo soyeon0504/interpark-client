@@ -2,6 +2,10 @@ import Header from "./components/Header";
 import Visual from "./components/Visual";
 import Recommend from "./components/Recommend";
 import Tour from "./components/Tour"
+import Ticket from "./components/Ticket"
+
+import Book from "./components/Book"
+import Event from "./components/Event"
 function App() {
     
     return (
@@ -13,6 +17,10 @@ function App() {
             <Visual />
             <Recommend />
             <Tour />
+            <Ticket />
+
+            <Book />
+            <Event />
         </div>
         {/* <!-- 하단 영역 --> */}
         <footer className="footer">

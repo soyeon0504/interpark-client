@@ -7,17 +7,14 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import "../styles/recommend.css";
+import "../styles/event.css";
 import "../styles/common.css";
 import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import styled from "@emotion/styled";
 import { InnerArea, SectionTag } from "./layout/layout";
 
-function numberWithCommas(number) {
-  return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-function Recommend() {
+function Event() {
   // js 코드 자리
   // JSX 의 요소를 React 에서 참조
   const swiperRef = useRef();
@@ -28,14 +25,14 @@ function Recommend() {
   // 외부 데이터 연동하기 (axios 이용)
   const axiosJsonData = () => {
     axios
-      .get("recommend.json")
+      .get("event.json")
       .then(function (res) {
         console.log(res.data);
 
         const result = res.data;
         let arr = [];
         for (let i = 0; i < result.total; i++) {
-          const obj = result["good_" + (i + 1)];
+          const obj = result["_" + (i + 1)];
           arr[i] = obj;
         }
         console.log(arr);
@@ -48,7 +45,7 @@ function Recommend() {
 
   // 외부 데이터 연동하기 (fetch 이용)
   const getJsonData = () => {
-    fetch("recommend.json")
+    fetch("event.json")
       .then((response) => {
         console.log("response : ", response);
         // 자료가 불러들여졌을 때
@@ -61,7 +58,7 @@ function Recommend() {
         // 자료가 바뀌면 화면을 변경하는 기능을 생성하겠다.
         let arr = [];
         for (let i = 0; i < result.total; i++) {
-          const obj = result["good_" + (i + 1)];
+          const obj = result["event_" + (i + 1)];
           arr[i] = obj;
         }
         console.log(arr);
@@ -150,7 +147,7 @@ function Recommend() {
                               <li>
                                 <span className="recommend-good-info-price">
                                   <b>{item.discount}%</b>
-                                  <em>{numberWithCommas(item.price)}</em>원
+                                  <em>{item.price}</em>원
                                 </span>
                               </li>
                               <li>
@@ -180,4 +177,4 @@ function Recommend() {
     </SectionTag>
   );
 }
-export default Recommend;
+export default Event;
