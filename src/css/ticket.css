@@ -1,0 +1,132 @@
+.ticket-slide-wrap {
+  height: 535px;
+}
+
+.ticket-slide-item {
+  position: relative;
+  height: 535px;
+  border: 0;
+  overflow: hidden;
+}
+
+.ticket-link {
+  height: auto;
+  display: block;
+}
+
+.ticket-img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.ticket-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
+    linear-gradient(180deg, transparent 68.5%, rgba(0, 0, 0, 0.6));
+  border-radius: 1.2rem;
+}
+
+.ticket-img img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+
+.ticket-info {
+  position: relative;
+  height: calc(100% - 400px);
+  padding: 1.6rem 0.8rem;
+}
+
+.ticket-count {
+  position: absolute;
+  bottom: 14.4rem;
+  left: 2.2rem;
+  z-index: 1;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 8.35rem;
+  color: #fff;
+}
+
+.ticket-good-info-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+
+.ticket-good-info-place {
+  margin: 0.7rem 0;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #666;
+}
+
+.ticket-good-info-duration {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #999;
+}
+
+.ticket-good-info-tag {
+  display: flex;
+  margin-top: 0.7rem;
+  flex-flow: row wrap;
+}
+
+.ticket-good-info-tag span {
+  height: 2.4rem;
+  padding: 0 0.8rem;
+  border: 0.1rem solid;
+  font-size: 1.1rem;
+  line-height: 2.4rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+}
+
+.ticket-good-info-tag .disabled {
+  display: none;
+}
+
+.ticket-good-info-tag .blue {
+  border-color: rgba(74, 149, 255, 0.3);
+  color: #4a95ff;
+}
+
+.ticket-good-info-tag .red {
+  border-color: rgba(239, 62, 67, 0.3);
+  color: #ef3e43;
+}
+
+.ticket-slide-item-btnmore {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-link i {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  margin: 0 auto 0.6rem;
+  background: url(../images/btn_moreProdu.svg) no-repeat 50%;
+  border-radius: 5rem;
+}
+
+.ticket-link g {
+  font-size: 14px;
+  text-align: center;
+}
+
+.ticket-slide-next,
+.ticket-slide-prev {
+  top: 46%;
+}

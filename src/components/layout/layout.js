@@ -5,8 +5,10 @@ export const SectionTag = styled.section`
   padding-top: ${(props) => (props.pt === 0 ? "0px" : props.pt + "px")};
   padding-bottom: ${(props) => (props.pb === 0 ? "0px" : props.pb + "px")};
 `;
+
 export const InnerArea = styled.div`
   position: relative;
   width: 1280px;
+  height: ${(props) => props.h};
   margin: 0 auto;
 `;

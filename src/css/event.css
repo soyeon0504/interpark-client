@@ -1,0 +1,28 @@
+.event-slide-item {
+  position: relative;
+  width: 300px;
+}
+
+.event-slide-item a {
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.event-slide-item a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.05);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03));
+}
+
+.event-slide-item a img {
+  width: 100%;
+}
+

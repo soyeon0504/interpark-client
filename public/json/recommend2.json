@@ -1,0 +1,87 @@
+{
+  "total": 12,
+  "recommend_1": {
+    "file": "images/recommend/r2_1.jpg",
+    "url": "a.html",
+    "p": "[쇼핑앱특가] (인앱특가 3,990원/병당333원) 아이팝 무라벨 먹는샘물 생수 2L*12펫 / 하이트진로",
+    "discount": 17,
+    "price": 5690
+  },
+  "recommend_2": {
+    "file": "images/recommend/r2_2.jpg",
+    "url": "b.html",
+    "p": "[산지직송] 국내산 햇 양파 5kg 3kg 특대 (2개사면 1kg 추가증정)",
+    "discount": 0,
+    "price": 7900
+  },
+  "recommend_3": {
+    "file": "images/recommend/r2_3.jpg",
+    "url": "c.html",
+    "p": "[산지직송] 포항 구룡포 제철 꽁치 과메기 및 야채세트 모음전!",
+    "discount": 8,
+    "price": 10830
+  },
+  "recommend_4": {
+    "file": "images/recommend/r2_4.jpg",
+    "url": "d.html",
+    "p": "[청구할인6%]  23년산 햅쌀 10kg 골라담기, 진품경기미/수향미특/경기추청/이천",
+    "discount": 3,
+    "price": 31500
+  },
+  "recommend_5": {
+    "file": "images/recommend/r2_5.jpg",
+    "url": "e.html",
+    "p": "[쇼핑앱추가쿠폰] 해태 포키 극세4+블루베리2+딸기2 /극세 44g * 8 / 빼빼로데이 / 특별한 날엔 포키",
+    "discount": 26,
+    "price": 9900
+  },
+  "recommend_6": {
+    "file": "images/recommend/r2_6.png",
+    "url": "f.html",
+    "p": "산지직송 초간편 자연산 손질오징어 1kg (7미-8미)",
+    "discount": 12,
+    "price": 15560
+  },
+  "recommend_7": {
+    "file": "images/recommend/r2_7.jpg",
+    "url": "b.html",
+    "p": "바다원 어포튀각 110g*5봉",
+    "discount": 4,
+    "price": 23900
+  },
+  "recommend_8": {
+    "file": "images/recommend/r2_8.jpg",
+    "url": "c.html",
+    "p": "팸퍼스 베이비드라이 팬티 밴드 1박스 기저귀",
+    "discount": 0,
+    "price": 68900
+  },
+  "recommend_9": {
+    "file": "images/recommend/r2_9.jpg",
+    "url": "d.html",
+    "p": "23년 제철 국내산 태안 자연산 활 꽃게 3kg 당일조업 조업즉시발송 톱밥포장 빙장포장 (키로당 3-5미)",
+    "discount": 2,
+    "price": 33900
+  },
+  "recommend_10": {
+    "file": "images/recommend/r2_10.jpg",
+    "url": "d.html",
+    "p": "[11/7 오쎈 다운로드쿠폰가 7,670원] 크리오 쿨 맥스 민트 치약 100g x8개 민트/스트롱 민트 택1_I",
+    "discount": 12,
+    "price": 11230
+  },
+  "recommend_11": {
+    "file": "images/recommend/r2_11.jpg",
+    "url": "d.html",
+    "p": "[컬쳐랜드] 모바일 문화상품권 1만원권_카드가능",
+    "discount": 3,
+    "price": 9700
+  },
+  "recommend_12": {
+    "file": "images/recommend/r2_12.jpg",
+    "url": "d.html",
+    "p": "[특가]전병 (1kg +1kg ) 옛날과자 센베이 오란다 고급전병(실중량)",
+    "discount": 20,
+    "price": 10960
+  }
+}

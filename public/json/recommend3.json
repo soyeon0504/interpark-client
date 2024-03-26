@@ -1,0 +1,84 @@
+{
+  "total": 12,
+  "recommend_1": {
+    "file": "images/recommend/r3_1.jpg",
+    "url": "a.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 사골곰탕500g(실온)",
+    "discount": 0,
+    "price": 1900
+  },
+  "recommend_2": {
+    "file": "images/recommend/r3_2.jpg",
+    "url": "b.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 하우촌 오장동 냉면 1인분 물냉면 비빔냉면",
+    "discount": 0,
+    "price": 2900
+  },
+  "recommend_3": {
+    "file": "images/recommend/r3_3.jpg",
+    "url": "c.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 국내산 사골곰탕 500g 외 실온 국 탕 반찬 25종 모음",
+    "discount": 0,
+    "price": 1900
+  },
+  "recommend_4": {
+    "file": "images/recommend/r3_4.jpg",
+    "url": "d.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 프리미엄 궁중찜닭 450g (실온)",
+    "discount": 10,
+    "price": 6300
+  },
+  "recommend_5": {
+    "file": "images/recommend/r3_5.jpg",
+    "url": "e.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 소고기미역국500g(실온)",
+    "discount": 10,
+    "price": 4950
+  },
+  "recommend_6": {
+    "file": "images/recommend/r3_6.jpg",
+    "url": "f.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 육개장500g(실온)",
+    "discount": 10,
+    "price": 4950
+  },
+  "recommend_7": {
+    "file": "images/recommend/r3_7.jpg",
+    "url": "b.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 고추장찌개500g(실온)",
+    "discount": 10,
+    "price": 4950
+  },
+  "recommend_8": {
+    "file": "images/recommend/r3_8.jpg",
+    "url": "c.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 차돌된장찌개500g(실온)",
+    "discount": 10,
+    "price": 4950
+  },
+  "recommend_9": {
+    "file": "images/recommend/r3_9.jpg",
+    "url": "d.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 프리미엄 닭볶음탕 450g(실온)",
+    "discount": 10,
+    "price": 6300
+  },
+  "recommend_10": {
+    "file": "images/recommend/r3_10.jpg",
+    "url": "d.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 소고기장조림130g(실온)",
+    "discount": 10,
+    "price": 4950
+  },
+  "recommend_11": {
+    "file": "images/recommend/r3_11.jpg",
+    "url": "d.html",
+    "p": "★추가 3% 다운로드 쿠폰★ 교동 프리미엄 순살 갈비탕 450g(실온)",
+    "discount": 10,
+    "price": 6300
+  },
+  "recommend_12": {
+    "file": "",
+    "url": "d.html"
+  }
+}

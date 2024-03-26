@@ -1,0 +1,84 @@
+{
+  "total": 12,
+  "recommend_1": {
+    "file": "images/recommend/r4_1.jpg",
+    "url": "a.html",
+    "p": "삼성전자 양문형냉장고 852L RS84B5001CW 가정용냉장고 [소상공인제품]",
+    "discount": 10,
+    "price": 1156820
+  },
+  "recommend_2": {
+    "file": "images/recommend/r4_2.jpg",
+    "url": "b.html",
+    "p": "삼성전자 냉동고 ZRS25LSLH 247L 가정용 업소용 무료배송 무료설치 /",
+    "discount": 10,
+    "price": 523530
+  },
+  "recommend_3": {
+    "file": "images/recommend/r4_3.jpg",
+    "url": "c.html",
+    "p": "캐리어 클라윈드 KRFT-122ABPWO 최신상 미니(소형) 일반냉장고 저소음 2도어 122L 전국배송 빠른설치",
+    "discount": 15,
+    "price": 204000
+  },
+  "recommend_4": {
+    "file": "images/recommend/r4_4.jpg",
+    "url": "d.html",
+    "p": "LG전자 울트라HD 스마트 TV 55UQ7070 55인치 A",
+    "discount": 5,
+    "price": 578550
+  },
+  "recommend_5": {
+    "file": "images/recommend/r4_5.jpg",
+    "url": "e.html",
+    "p": "쿠쿠 CRP-ST1010FW 10인용 트윈프레셔 전기압력밥솥 공식판매점 SJ",
+    "discount": 14,
+    "price": 201670
+  },
+  "recommend_6": {
+    "file": "images/recommend/r4_6.jpg",
+    "url": "f.html",
+    "p": "2023 일월 온수매트 모음전/다양한 모델과 크기 선택 일월매트 일월온수매트",
+    "discount": 29,
+    "price": 87200
+  },
+  "recommend_7": {
+    "file": "images/recommend/r4_7.jpg",
+    "url": "b.html",
+    "p": "[한정 특가] 일월 더마루 골드에디션 전기 카페트 매트 특대형/카본매트 일월매트 LX하우시스 친환경원단",
+    "discount": 20,
+    "price": 180000
+  },
+  "recommend_8": {
+    "file": "images/recommend/r4_8.jpg",
+    "url": "c.html",
+    "p": "캐리어 KRFT-249ATMSW 미니(소형) 원룸 일반냉장고 간접냉각 저소음 실버 249L 전국배송 빠른설치",
+    "discount": 15,
+    "price": 327000
+  },
+  "recommend_9": {
+    "file": "images/recommend/r4_9.jpg",
+    "url": "d.html",
+    "p": "LG전자 울트라HD 86UQ7590 스마트 TV 86인치 A",
+    "discount": 5,
+    "price": 1951300
+  },
+  "recommend_10": {
+    "file": "images/recommend/r4_10.jpg",
+    "url": "d.html",
+    "p": "삼성 2구 인덕션 더플레이트 NZ60R7703PW 화이트 (소상공인제품) /",
+    "discount": 12,
+    "price": 227920
+  },
+  "recommend_11": {
+    "file": "images/recommend/r4_11.jpg",
+    "url": "d.html",
+    "p": "삼성 무선청소기 제트 150W  VS15A6031N5 [소상공인제품]/",
+    "discount": 12,
+    "price": 333520
+  },
+  "recommend_12": {
+    "file": "",
+    "url": "d.html"
+  }
+}

@@ -1,186 +1,132 @@
-.ticket {
-    position: relative;
-    padding-bottom: 90px;
-    /* background-color: pink; */
-}
-.ticket-inner {
-    position: relative;
-    width: 1280px;
-    margin: 0 auto;
-}
-.ticket-header {
-    position: relative;
-}
-.ticket-title {
-    position: relative;
-    margin-bottom: 10px;
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #000;
-    text-align: center;
-}
-.ticket-txt {
-    position: relative;
-    display: block;
-    font-size: 1.8rem;
-    color: #a7a9a7;
-    text-align: center;
-}
-.ticket-main {
-    position: relative;
-    padding: 25px 0;
-}
-.ticket-category {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-.ticket-list {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-.ticket-list li {
-    position: relative;
-}
-.ticket-cate-bt {
-    position: relative;
-    display: block;
-    padding: 0 20px;
-    line-height: 42px;
-    border: 1px solid #e5e5e5;
-    border-radius: 44px;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 1.4rem;
-    color: #111;
-    font-weight: 400;
-}
-.ticket-cate-bt-active {
-    background-color: #333 !important;
-    color: #fff !important;
-    font-weight: 700 !important;
-    border: 1px solid transparent !important;
-}
 .ticket-slide-wrap {
-    position: relative;
-    height: 520px;
-    /* background-color: blue; */
-    margin-top: 23px;
+  height: 535px;
 }
+
 .ticket-slide-item {
-    position: relative;
-    height: 520px;
-    /* border: 1px solid #e8e8e8; */
-    /* border-radius: 10px; */
-    overflow: hidden;
+  position: relative;
+  height: 535px;
+  border: 0;
+  overflow: hidden;
 }
+
 .ticket-link {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
+  height: auto;
+  display: block;
 }
+
 .ticket-img {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    border: 1px solid #e8e8e8;
-    border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.ticket-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
+    linear-gradient(180deg, transparent 68.5%, rgba(0, 0, 0, 0.6));
+  border-radius: 1.2rem;
 }
 
 .ticket-img img {
-    /* position: absolute; */
-    width: 100%;
-    height: 100%;
-    /* left: 50%; */
-    /* top: 50%; */
-    /* transform: translate(-50%, -50%); */
-    object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1.2rem;
 }
-.ticket-number {
-    position: absolute;
-    color: #fff;
-    bottom: 10px;
-    font-size: 70px;
-    font-weight: 700;
-    padding-left: 20px;
-}
+
 .ticket-info {
-    position: relative;
-    display: block;
-    height: calc(100% - 310px);
-    padding: 22px 20px;
+  position: relative;
+  height: calc(100% - 400px);
+  padding: 1.6rem 0.8rem;
 }
-.ticket-good-list {
-    position: relative;
-}
-.ticket-good-list li {
-    position: relative;
-    margin-bottom: 10px;
+
+.ticket-count {
+  position: absolute;
+  bottom: 14.4rem;
+  left: 2.2rem;
+  z-index: 1;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 8.35rem;
+  color: #fff;
 }
 
 .ticket-good-info-title {
-    position: relative;
-    font-size: 2rem;
-    font-weight: 700;
-    /* color: #ef3e43; */
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
 }
+
 .ticket-good-info-place {
-    position: relative;
-    font-size: 1.8rem;
-    color: #666;
-    font-weight: 400;
-    /* 1줄 말줄임 */
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    padding-top: 8px;
-
+  margin: 0.7rem 0;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #666;
 }
 
-/* .ticket-good-info-price em {
-    position: relative;
-    font-size: 2rem;
-    font-weight: 700;
-    font-style: normal;
-} */
-.ticket-good-info-period {
-    position: relative;
-    font-size: 1.5rem;
-    color: #999999;
-    word-break: break-all;
-    /* 2줄이상 말줄임 */
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+.ticket-good-info-duration {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #999;
 }
 
-.ticket-footer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-.ticket-footer-inner{
-    margin-top: 20px;
-}
-.ticket-footer-bt {
-    position: relative;
-    padding: 0 20px;
-    line-height: 56px;
-    border: 1px solid #e5e5e5;
-    border-radius: 44px;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 1.4rem;
-    color: #333;
-    font-weight: 700;
+.ticket-good-info-tag {
+  display: flex;
+  margin-top: 0.7rem;
+  flex-flow: row wrap;
 }
 
-.ticket-footer-bt img {
-    transform: rotate();
+.ticket-good-info-tag span {
+  height: 2.4rem;
+  padding: 0 0.8rem;
+  border: 0.1rem solid;
+  font-size: 1.1rem;
+  line-height: 2.4rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+}
+
+.ticket-good-info-tag .disabled {
+  display: none;
+}
+
+.ticket-good-info-tag .blue {
+  border-color: rgba(74, 149, 255, 0.3);
+  color: #4a95ff;
+}
+
+.ticket-good-info-tag .red {
+  border-color: rgba(239, 62, 67, 0.3);
+  color: #ef3e43;
+}
+
+.ticket-slide-item-btnmore {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-link i {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  margin: 0 auto 0.6rem;
+  background: url(../images/btn_moreProdu.svg) no-repeat 50%;
+  border-radius: 5rem;
+}
+
+.ticket-link p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.ticket-slide-next,
+.ticket-slide-prev {
+  top: 46%;
 }
